@@ -233,9 +233,9 @@
 
 1. *In order to merge the 3 tables:*
 
-    - *The ingestion procedures are repeated by user `mta` using the same commands and input as stated above.*
+    - *The ingestion procedures are repeated using the same commands and input as stated above.*
 
-    - *After the ingestion steps, user `mta` now have 3 tables: `covid`, `date_trips`, `mta` in database `mta`.*
+    - *After the ingestion steps, {YOUR_DATABASE} should have 3 tables: `covid`, `date_trips`, `mta`.*
 
 2. Run the Script in Hive Shell: `ana_code/merge_create_join_table.sql`
 
